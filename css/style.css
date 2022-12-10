@@ -1,13 +1,32 @@
 /**************************************
         REGOLE GENERALI
 ***************************************/
+:root {
+        --my-dark-color: #3A546D;
+        --my-light-color: #1ABC9C;
+        --my-darkest-color: #2C3E50;
+}
 
+.bg-my-dark {
+        background-color: var(--my-dark-color);
+}
+
+.bg-my-light {
+        background-color: var(--my-light-color);
+}
+
+.bg-my-darkest {
+        background-color: var(--my-darkest-color);
+}
+
+.text-my-light {
+        color: var(--my-light-color);
+}
 
 
 /**************************************
         HEADER
 ***************************************/
-
 
 
 /**************************************
@@ -18,10 +37,4 @@
 
 /**************************************
         FOOTER
-***************************************/
-
-
-
-/**************************************
-        DEBUG
 ***************************************/
