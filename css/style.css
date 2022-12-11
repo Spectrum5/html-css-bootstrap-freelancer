@@ -59,6 +59,10 @@ img {
         color: var(--my-light-color);
 }
 
+.text-my-darkest {
+        color: var(--my-darkest-color);
+}
+
 /**************************************
         HEADER
 ***************************************/
