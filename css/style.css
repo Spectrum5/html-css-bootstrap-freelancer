@@ -16,6 +16,13 @@ body {
     display: inline-block;
     vertical-align: middle;
 }
+
+input,
+textarea {
+    border: none;
+}
+
+
     
 /* RESET */
 ul, ol {
