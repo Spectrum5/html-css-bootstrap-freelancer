@@ -1,6 +1,43 @@
 /**************************************
         REGOLE GENERALI
 ***************************************/
+
+body {
+        font-family: 'PT Sans', sans-serif;
+}
+
+.flex {
+        display: flex;
+        flex-wrap: wrap;
+}
+
+    
+
+/* RESET */
+ul, ol {
+        list-style: none;
+}
+    
+a {
+        text-decoration: none;
+        color: currentColor
+}
+    
+button {
+        border: none;
+        background-color: transparent;
+}
+    
+img {
+        max-width: 100%;
+        display: block;
+}
+    
+svg {
+        display: block;
+}
+
+/* ROOT */
 :root {
         --my-dark-color: #3A546D;
         --my-light-color: #1ABC9C;
@@ -23,11 +60,24 @@
         color: var(--my-light-color);
 }
 
-
 /**************************************
         HEADER
 ***************************************/
+.nav-list {
+        display: none;
+}
 
+.nav-bars {
+        cursor: pointer;
+        font-size: 1.2rem;
+        color: gray;
+}
+
+.fa-bars {
+        border: 1px solid gray;
+        padding: 2px 8px 2px 8px;
+        border-radius: 4px;
+}
 
 /**************************************
         MAIN
@@ -38,3 +88,19 @@
 /**************************************
         FOOTER
 ***************************************/
+
+
+/**************************************
+        MEDIAQUERY
+***************************************/
+@media (min-width: 768px) {
+
+        /* HEADER */
+.nav-list {
+        display: block;
+}
+    
+.nav-bars {
+        display: none;
+}
+}
