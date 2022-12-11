@@ -6,13 +6,17 @@ body {
         font-family: 'PT Sans', sans-serif;
 }
 
-.flex {
-        display: flex;
-        flex-wrap: wrap;
+.dash::before,
+.dash::after {
+    content: '';
+    height: 3px;
+    width: 10vw;
+    background-color: currentColor;
+    max-width: 100px;
+    display: inline-block;
+    vertical-align: middle;
 }
-
     
-
 /* RESET */
 ul, ol {
         list-style: none;
@@ -30,11 +34,6 @@ button {
     
 img {
         max-width: 100%;
-        display: block;
-}
-    
-svg {
-        display: block;
 }
 
 /* ROOT */
@@ -82,7 +81,9 @@ svg {
 /**************************************
         MAIN
 ***************************************/
-
+.image-avatar {
+        width: 250px
+}
 
 
 /**************************************
